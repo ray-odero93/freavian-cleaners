@@ -13,12 +13,15 @@ body
         padding: 80px;  
         background: cyan;  
         border-radius: 15px ;  
+        margin-top: 48px;
+        height: 382px;
           
 }  
 h2{  
     text-align: center;  
     color: black;  
-    padding: 20px;  
+    padding: 20px;
+    margin-bottom: 20px;  
 }  
 label{  
     color: black;  
@@ -48,12 +51,4 @@ label{
     color: blue;  
   
   
-}  
-span{  
-    color: white;  
-    font-size: 17px;  
-}  
-a{  
-    float: right;  
-    background-color: grey;  
-} 
+}

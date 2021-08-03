@@ -7,24 +7,21 @@
   <title>Freavian Cleaners</title>
   <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-  <h2>Login Form</h2><br>    
-  <div class="login">    
-  <form id="login" method="get" action="login.php">    
+<body>   
+  <div class="login"> 
+    <form action="mainpage.html" method="POST">
+    <h2>Login Form</h2><br>    
       <label><b>User Name</b></label>   
       <input type="text" name="Uname" id="Uname" placeholder="Username">    
       <br><br>    
       <label><b>Password</b></label>    
       <input type="Password" name="Pass" id="Pass" placeholder="Password">    
       <br><br>    
-      <input type="button" name="log" id="log" value="Submit">       
-      <br><br>    
-      <input type="checkbox" id="check">    
-      <span>Remember me</span>    
-      <br><br>    
-      Forgot <a href="#">Password</a>    
+      <input type="submit" name="log" id="log" value="Login" onClick="Login()">      
+      <br><br>
+      <p>Do'nt have an account?<a href="registration.html">Sign Up</a></p>        
   </form>     
 </div>    
-  
+<script src="js/index.js"></script>
 </body>
 </html>
