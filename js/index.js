@@ -10,12 +10,16 @@ if(username.value == "admin" && password.value == "admin1234")
     // alert("correct details");
     // return false;
 }
-else{
-    alert("Wrong Username or Password");
-}
-if(username.value == null || password.value == null)
+// else{
+//     alert("Wrong Username or Password");
+// }
+if(username.value == "" || password.value == "")
 {
     alert("fill the blank details");
+    return false;
+}
+else{
+    alert("Wrong Username or Password");
     return false;
 }
 }
