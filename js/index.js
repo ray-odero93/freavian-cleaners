@@ -13,7 +13,7 @@ if(username.value == "admin" && password.value == "admin1234")
 else{
     alert("Wrong Username or Password");
 }
-if(username.value == "" || password.value == "")
+if(username.value == null || password.value == null)
 {
     alert("fill the blank details");
 }
