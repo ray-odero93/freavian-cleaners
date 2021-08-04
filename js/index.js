@@ -1,6 +1,6 @@
 function Login(){
 var username = "admin";
-var password = "123";
+var password = "admin1234";
 
 var username=document.getElementById("Uname");
 var password=document.getElementById("Pass");
@@ -13,14 +13,11 @@ if(username.value == "admin" && password.value == "admin1234")
 else{
     alert("Wrong Username or Password");
 }
-// if(username.value == null || password.value == null)
-// {
-//     alert("fill the blank details");
-// }
-}
-if(username.value || password.value == ""){
-    alert("Required field");
+if(username.value == null || password.value == null)
+{
+    alert("fill the blank details");
     return false;
+}
 }
 
 
