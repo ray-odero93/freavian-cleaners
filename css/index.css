@@ -51,6 +51,12 @@ label{
     color: blue;  
 }
 #button {
-    background-color: cornflowerblue;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
   
