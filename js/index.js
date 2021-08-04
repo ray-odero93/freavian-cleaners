@@ -11,7 +11,7 @@ if(username.value == "admin" && password.value == "123")
     // return false;
 }
 else{
-    alert("Wrong details");
+    alert("Wrong Username or Password");
 }
 if(username.value == "" || password.value == "")
 {
