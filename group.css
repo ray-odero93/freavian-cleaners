@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.navbar {
+  margin-bottom: 60px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
