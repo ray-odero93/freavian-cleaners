@@ -72,7 +72,33 @@ $(function(){
 
         }
     }
-
+    function check_retype_password() {
+        var password = $("#form_password").val();
+        var retype_password = $("#form_retype_password").val();
+        if (password !== retype_password) {
+           $("#retype_password_error_message").html("Passwords Did not Matched");
+           $("#retype_password_error_message").show();
+           $("#form_retype_password").css("border-bottom","2px solid #F90A0A");
+           error_retype_password = true;
+        } else {
+           $("#retype_password_error_message").hide();
+           $("#form_retype_password").css("border-bottom","2px solid #34F458");
+        }
+     }
+     function check_email() {
+        var pattern = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        var email = $("#form_email").val();
+        if (pattern.test(email) && email !== '') {
+           $("#email_error_message").hide();
+           $("#form_email").css("border-bottom","2px solid #34F458");
+        } else {
+           $("#email_error_message").html("Invalid Email");
+           $("#email_error_message").show();
+           $("#form_email").css("border-bottom","2px solid #F90A0A");
+           error_email = true;
+        }
+     }
+    
    
 
 });
