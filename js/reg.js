@@ -98,7 +98,29 @@ $(function(){
            error_email = true;
         }
      }
-    
+     $("#registration_form").submit(function() {
+        error_fname = false;
+        error_sname = false;
+        error_email = false;
+        error_password = false;
+        error_retype_password = false;
+
+        check_fname();
+        check_sname();
+        check_email();
+        check_password();
+        check_retype_password();
+
+        if (error_fname === false && error_sname === false && error_email === false && error_password === false && error_retype_password === false) {
+            alert("Your Registration is successful");
+           return true;
+        } else {
+           alert("Please Fill the form Correctly");
+           return false;
+        }
+
+
+     });
    
 
 });
