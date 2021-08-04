@@ -13,10 +13,14 @@ if(username.value == "admin" && password.value == "admin1234")
 else{
     alert("Wrong Username or Password");
 }
-if(username.value == null || password.value == null)
-{
-    alert("fill the blank details");
+// if(username.value == null || password.value == null)
+// {
+//     alert("fill the blank details");
+// }
 }
+if(username.value || password.value == ""){
+    alert("Required field");
+    return false;
 }
 
 
