@@ -1,9 +1,9 @@
 body  
 {  
     margin: 0;  
-    padding: 0;  
-     background-image: url(../images/cleaning-abstract.jpg);   
+    padding: 0;    
     font-family: 'Arial';  
+    background-color: blanchedalmond;
 }  
 .login{  
         width: 382px;  
@@ -49,6 +49,8 @@ label{
     border-radius: 17px;  
     padding-left: 7px;  
     color: blue;  
-  
-  
 }
+#button {
+    background-color: cornflowerblue;
+}
+  
