@@ -4,7 +4,7 @@ var password = "123";
 
 var username=document.getElementById("Uname");
 var password=document.getElementById("Pass");
-if(username.value == "admin" && password.value == "12345678")
+if(username.value == "admin" && password.value == "admin1234")
 {
     window.location.replace("mainpage.html");
     // alert("correct details");
