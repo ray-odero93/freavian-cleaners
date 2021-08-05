@@ -1,6 +1,12 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .glassLanding {
   background: white;
-  min-height: 80vh;
+  min-height: 100vh;
   width: 60%;
   background: linear-gradient(
     to right bottom,
@@ -11,9 +17,18 @@
   z-index: 3;
   backdrop-filter: blur(2rem);
   display: flex;
+  position: relative;
 }
 
 .dashboard {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  
 }
