@@ -15,7 +15,7 @@ else{
     return false;
 }
 }
-$('#first-form').submit(function(Login) {
+$('document').submit(function(Login) {
     var username = $('#username').val();
     var password = $('#password').val();
     $(".error").remove();
