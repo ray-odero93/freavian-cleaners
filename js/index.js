@@ -6,7 +6,7 @@ var username=document.getElementById("Uname");
 var password=document.getElementById("Pass");
 if(username.value == "admin" && password.value == "admin1234")
 {
-    window.location.replace("");
+    window.location.replace("mainpage.html");
     // alert("correct details");
     // return false;
 }
