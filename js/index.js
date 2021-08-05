@@ -15,17 +15,6 @@ else{
     return false;
 }
 }
-$('document').submit(function(Login) {
-    var username = $('#username').val();
-    var password = $('#password').val();
-    $(".error").remove();
-    if (username.length < 1) {
-      $('#username').after('<span class="error">Insert your username</span>');
-    }
-    if (password.length < 1) {
-      $('#password').after('<span class="error">Insert your password</span>');
-    }
-  });
 
 
 
