@@ -12,33 +12,34 @@
   <link href="./group.css" type="text/css" rel="stylesheet">
   <link href="css/contacts.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
   <div class="contact">
     <div class="contact-header">
-      <div class="contact-heading">
+      
+      <div class="contact-details">
         <h1>CONTACT US</h1>
+        <p>We are located in Ngong Road,Nairobi, Kenya</p>
+        <p>Mobile: +254722222222</p>
+        
       </div>
     </div>
     <div class="dashBoard">
-      <div class="contact-details">
-        <p>We are located in Ngong Road,Nairobi, Kenya</p>
-        <p>Mobile: +254722222222</p>
-        <p>For any questions, complaints or compliments please contact us via this form.</p>
-      </div>
       <div class="inquiries">
+        <h6>For any questions, complaints or compliments please contact us via this form.</h6>
         <form>
           <div class="row">
             <div class="col-md-6 col-margin">
-              <input id="name" type="text" class="form-control" placeholder="Name..." required>
+              <input id="name" type="text" class="form-control" placeholder="Name..." >
             </div>
             <div class="col-md-6 cl-margin">
-              <input id="email" type="email" class="form-control" placeholder="Email..." required>
+              <input id="email" type="email" class="form-control" placeholder="Email..." >
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
               <textarea id="message" class="form-control" placeholder="Your message here..." rows="10"
-                required></textarea>
+               ></textarea>
             </div>
           </div>
           <button id="submit" type="submit" class="btn ">Submit</button>
@@ -46,10 +47,18 @@
       </div>
     </div>
   </div>
-  <footer>
-    <div class="social-icons"></div>
-    <div class="contact-details">Address</div>
-  </footer>
+  <!-- <footer>
+    <div class="hours">Working hours</div>
+    <p class="time">09:00 - 05:00</p>
+    <a href="facebook.com" class="fb"><i class="fab fa-facebook"></i></a>
+    <a href="instagram.com" class="ig"><i class="fab fa-instagram"></i></a>
+    <a href="twitter.com" class="twitter"><i class="fab fa-twitter"></i></a>
+    </p>
+  </footer> -->
+  <script src="https://kit.fontawesome.com/c541b41ab1.js" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/contact.js"></script>
 </body>
 
 </html>
