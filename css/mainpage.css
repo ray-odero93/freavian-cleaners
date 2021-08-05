@@ -39,28 +39,7 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
-.circle1,
-.circle2 {
-  background: white;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.3)
-  );
-  height: 20rem;
-  width: 20rem;
-  position: absolute;
-  border-radius: 50%;
-}
 
-.circle1 {
-  top: 5%;
-  right: 15%;
-}
-.circle2 {
-  bottom: 5%;
-  left: 10%;
-}
 .dashboard {
   flex: 1;
   display: flex;
@@ -81,6 +60,16 @@ main {
   padding: 1rem 5rem;
   align-items: center;
 }
+
+.account-activity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
 .link h2 {
   padding: 0rem 2rem;
 }
@@ -166,17 +155,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.percentage {
-  font-weight: bold;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 
