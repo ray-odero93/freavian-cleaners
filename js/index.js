@@ -1,6 +1,6 @@
 function Login(){
 var username = "admin";
-var password = "123";
+var password = "admin123";
 
 var username=document.getElementById("Uname");
 var password=document.getElementById("Pass");
