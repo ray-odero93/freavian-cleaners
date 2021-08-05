@@ -44,5 +44,15 @@ main {
 .account {
   min-height: 100%;
   margin-left: 20px;
-
 }
+
+.userAccount {
+  position: absolute;
+  top: 10px;
+}
+
+.userManage {
+  padding-top: 30px;
+}
+
+
