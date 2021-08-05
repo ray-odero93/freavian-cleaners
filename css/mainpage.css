@@ -46,13 +46,11 @@ main {
   margin-left: 20px;
 }
 
-.userAccount {
-  position: absolute;
-  top: 10px;
+.locations {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65%;
 }
 
-.userManage {
-  padding-top: 30px;
-}
 
 
