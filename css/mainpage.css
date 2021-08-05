@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glassLanding {
+  background: white;
+  min-height: 100vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 3;
+  backdrop-filter: blur(2rem);
+  display: flex;
+  position: relative;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    margin-right: 20px;
+}
+
+.account {
+  min-height: 100%;
+  margin-left: 20px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65%;
+}
+
+
+
