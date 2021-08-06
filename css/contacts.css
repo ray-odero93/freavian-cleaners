@@ -103,7 +103,7 @@
     font-weight: bold;
 }
 
-footer ul {
+.social-icons ul {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -112,6 +112,6 @@ footer ul {
     flex-direction: row;
 } 
 
-.address-details {
+.address-details p{
     text-align: center;
 }
