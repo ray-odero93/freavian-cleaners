@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;900&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+/* div{
+    border: 1px solid;
+} */
+.container img{
+    /* max-width: 900px; */
+    width: 100%;
+    max-height: 450px;
+    height: 100%;
+}
+.container .title{
+    font-size: 30px;
+    font-weight:bolder;
+    margin-top: 15px;
+}
+.container .intro-row{
+    background-color: aqua;
+    margin: 0.1rem;
+    justify-content: space-between;
+    /* margin-left: 1.2rem; */
+}
+.container .mission-vission-row{
+    margin-top: 6rem;
+    justify-content: space-between;
+    /* color: rgb(158, 172, 143); */
+}
+.container .board-info{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+}
+.container .board-info img, .board-info-2 img{
+    width: 150px;
+    height: 130px;
+}
+.container .board-info-2{
+    display: flex;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    /* width: 50%; */
+    justify-content: space-around;
+}
+#overview1, #overview2, #overview3, #overview4, #overview5{
+    display: none;
+    color: rgb(80, 226, 43);
+    border: 1px solid green;
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #9e9191f1;
+  }
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 0;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+  footer {
+    display: flex;
+     flex-direction: block;
+     justify-content: center;
+ }
+ .social-icons ul {
+     border-radius: 50%;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     flex-direction: row;
+ }
