@@ -1,7 +1,4 @@
 .contact {
-    /* margin-top: 30px; */
-    /* background-position: center; */
-    /* background-size: cover; */
     background: linear-gradient(
         to right top,
         #65DFC9, #6CDBEB
@@ -12,40 +9,46 @@
     text-align: center;
     align-items: center;
     flex-direction: column;
-    /* opacity: 0.9;
-    height: 70vh; */
+   
     color: black;
-    /* padding-top: 2em; */
 }
 
 .contact h1 {
     font-size: 52px;
-    color: white;
-    border: solid black;
-    background-color: black;
-    border-radius: 20px;
-    padding: 10px;
+    color: black; 
+    margin-bottom: 25px;
 }
 
 .contact-header {
     background-image: url("../images/cleaning-abstract3.jpg");
     background-size: cover;
-    height:70vh;
+    height:50vh;
     width: 100%;
     color: black;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0.7;
 }
 
-.contact-heading {
-    position: absolute;
-    top: 40%;
-    left: 40%;
+.contact-details {
+    font-size: 20px;
+    border: solid transparent;
+    background-color:#F0FFFF;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
 }
 
 .dashBoard {
         background: white;
-        min-height: 80vh;
+        min-height: 60vh;
         width: 60%;
         background: linear-gradient(
           to right bottom,
@@ -65,13 +68,12 @@
 
 .contact form {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     width: 100%;
 }
 
 .contact input {
-    background: transparent;
-    background: transparent;
+    background: white;
 }
 
 .contact input::placeholder {
@@ -92,8 +94,33 @@
 #submit {
     border: 2px solid ;
     text-align: center;
-    /* color: white; */
+    background: linear-gradient(
+        to right top,
+        #65DFC9, #6CDBEB
+    );
     width: 30%;
     margin: 1em 0;
     font-weight: bold;
+}
+
+footer {
+   display: flex;
+    flex-direction: block;
+    justify-content: center;
+}
+
+.social-icons ul {
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+} 
+
+.address-details p{
+    display: flex;
+    
+    text-align: center;
 }

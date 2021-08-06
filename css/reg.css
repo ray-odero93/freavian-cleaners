@@ -3,7 +3,7 @@ body
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: url(/images/freavian-banner2.png);
+	background: url(./images/freavian-banner2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }

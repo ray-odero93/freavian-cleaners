@@ -5,14 +5,8 @@
 }
 
 body {
-  background: background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-}
+  background: linear-gradient(to right top, #74cfbf, #6cdbeb);
 
-.navbar {
-  margin-bottom: 60px;
+footer ul {
+  list-style: none;
 }
-
-footer {
-  margin-top: 60px;
-}
-
