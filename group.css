@@ -7,6 +7,24 @@
 body {
   background: linear-gradient(to right top, #74cfbf, #6cdbeb);
 
-footer ul {
-  list-style: none;
+  footer {
+   display: flex;
+    flex-direction: block;
+    justify-content: center;
+}
+
+.social-icons ul {
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+} 
+
+.address-details p{
+    display: flex;
+    
+    text-align: center;
 }
