@@ -5,7 +5,7 @@ body
     font-family: 'Arial';  
     background-color: cyan;
 }  
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
     background-color: violet;
@@ -27,7 +27,7 @@ nav>ul>li{
 
 #nav p{
     padding: 18px;
-}
+} */
    
 .login{  
         width: 382px;  
