@@ -115,5 +115,10 @@ display: block;
   justify-content: space-between;
 }
 
+.navbar {
+  margin-bottom: 20px;
+}
 
-
+footer {
+margin-top: 20px;
+}
