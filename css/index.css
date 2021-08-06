@@ -4,11 +4,12 @@ body
     padding: 0;    
     font-family: 'Arial';  
     background-color: cyan;
-}
+}  
 
 .navbar {
    display: flex;
     flex-direction: row;
+  justify-content: space-between;
 }
    
 .login{  
