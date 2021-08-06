@@ -55,9 +55,8 @@ main {
   border-radius: 2rem;
 }
 
-.account-activity {
-  display: flex;
-  justify-content: space-between;
+.dashboard {
+display: block;
 }
 
 .btn {
