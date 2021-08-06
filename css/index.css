@@ -5,6 +5,11 @@ body
     font-family: 'Arial';  
     background-color: cyan;
 }
+
+.navbar {
+   display: flex;
+    flex-direction: row;
+}
    
 .login{  
         width: 382px;  
