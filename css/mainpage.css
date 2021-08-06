@@ -27,8 +27,8 @@ main {
 
 .glass {
   background: white;
-  min-height: 80vh;
-  width: 60%;
+  min-height: 100vh;
+  width: 85%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -40,7 +40,7 @@ main {
   display: flex;
 }
 
-.dashboard {
+.account-activity {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -54,12 +54,6 @@ main {
   );
   border-radius: 2rem;
 }
-.link {
-  display: flex;
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
-  align-items: center;
-}
 
 .account-activity {
   display: flex;
@@ -70,31 +64,8 @@ main {
   border-radius: 5px;
 }
 
-.link h2 {
-  padding: 0rem 2rem;
-}
-
-.games {
+.account-activity {
   flex: 2;
-}
-
-.pro {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  border-radius: 2rem;
-  color: white;
-  padding: 1rem;
-  position: relative;
-}
-
-.pro img {
-  position: absolute;
-  top: -10%;
-  right: 10%;
-}
-.pro h2 {
-  width: 40%;
-  color: white;
-  font-weight: 600;
 }
 
 /* available cleaners */
@@ -102,19 +73,7 @@ main {
   margin-bottom: 3rem;
 }
 
-.status input {
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border: none;
-  width: 50%;
-  padding: 0.5rem;
-  border-radius: 2rem;
-}
-
-.games {
+.status {
   margin: 5rem;
   display: flex;
   flex-direction: column;
